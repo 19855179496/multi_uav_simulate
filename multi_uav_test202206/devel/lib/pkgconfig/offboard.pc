@@ -1,0 +1,8 @@
+prefix=/home/hr/aaworkspace/simulate/multi_uav_test202206/devel
+
+Name: offboard
+Description: Description of offboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

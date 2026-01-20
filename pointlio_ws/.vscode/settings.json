@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/c2214/Projects/new_pointlio_ws/devel/lib/python3/dist-packages",
+        "/home/c2214/Projects/livox_SDK_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/c2214/Projects/new_pointlio_ws/devel/lib/python3/dist-packages",
+        "/home/c2214/Projects/livox_SDK_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

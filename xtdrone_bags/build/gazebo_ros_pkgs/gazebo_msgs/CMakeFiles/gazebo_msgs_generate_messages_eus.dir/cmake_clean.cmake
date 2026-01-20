@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/manifest.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ContactState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ContactsState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/LinkState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/LinkStates.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ModelState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ModelStates.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ODEJointProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/ODEPhysics.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/PerformanceMetrics.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/SensorPerformanceMetric.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/msg/WorldState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/ApplyBodyWrench.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/ApplyJointEffort.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/BodyRequest.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/DeleteLight.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/DeleteModel.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetJointProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetLightProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetLinkProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetLinkState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetModelProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetModelState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetPhysicsProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/GetWorldProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/JointRequest.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetJointProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetJointTrajectory.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetLightProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetLinkProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetLinkState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetModelConfiguration.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetModelState.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SetPhysicsProperties.l"
+  "/home/hr/aaworkspace/simulate/xtdrone_bags/devel/share/roseus/ros/gazebo_msgs/srv/SpawnModel.l"
+  "CMakeFiles/gazebo_msgs_generate_messages_eus"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

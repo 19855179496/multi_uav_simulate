@@ -1,0 +1,2 @@
+gazebo_ros_pkgs/gazebo_dev:gazebo_ros_pkgs/gazebo_msgs:gazebo_ros_pkgs/gazebo_plugins:gazebo_ros_pkgs/gazebo_ros:gazebo_ros_pkgs/gazebo_ros_control:gazebo_ros_pkgs/gazebo_ros_pkgs
+-DCATKIN_DEVEL_PREFIX=/home/hr/aaworkspace/simulate/xtdrone_bags/devel -DCMAKE_INSTALL_PREFIX=/home/hr/aaworkspace/simulate/xtdrone_bags/install -G Unix Makefiles
