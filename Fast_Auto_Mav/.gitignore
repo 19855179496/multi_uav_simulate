@@ -1,0 +1,8 @@
+build/
+devel/
+bags/
+Third_Party/
+.idea/
+.vscode/
+*.bag
+*.tum

@@ -1,0 +1,69 @@
+#==================================================================================================================
+#
+# Project:	Nonlinear MPC for Hexacopter trajectory tracking.
+#
+# function:	NMPC Position controller parameters.
+#
+# Author:	Mina Kamel	mina.kamel@ethz.ch
+#
+# Generated:	20-Dec-2015 02:37:59
+#
+#==================================================================================================================
+
+# Controller Parameters:
+mass: 6.515
+roll_time_constant: 0.155540
+roll_gain: 1.020430
+pitch_time_constant: 0.147268
+pitch_gain: 0.998076
+linear_drag_coefficients: [0.010000, 0.010000, 0.000000]
+yaw_gain: 1.000000
+
+#sim
+# mass: 1.5
+# roll_time_constant: 0.153639
+# roll_gain: 1.047633
+# pitch_time_constant: 0.164612
+# pitch_gain: 1.048409
+# linear_drag_coefficients: [0.010000, 0.010000, 0.000000]
+# yaw_gain: 1.000000
+
+# dynamic config default values:
+q_x : 100
+q_y : 100
+q_z : 160
+
+q_vx : 20
+q_vy : 20
+q_vz : 30
+
+q_roll : 10
+q_pitch: 10
+
+r_roll  : 50
+r_pitch : 50
+r_thrust : 1
+
+# roll_max: deg(45.0)
+# pitch_max: deg(45.0)
+# yaw_rate_max: deg(90)
+
+roll_max: deg(10.0)
+pitch_max: deg(10.0)
+yaw_rate_max: deg(90)
+
+thrust_min: 5
+thrust_max: 25
+
+K_yaw: 2.0 #1.8
+
+Ki_xy: 0.5
+Ki_z: 1.5
+position_error_integration_limit: 2
+antiwindup_ball: 0.4
+
+enable_offset_free : false
+enable_integrator : false
+
+sampling_time: 0.01    # 100hz IMPORTANT: set this equal to the rate of odometry msg
+prediction_sampling_time: 0.1 # 10hz,mpc horizen step time

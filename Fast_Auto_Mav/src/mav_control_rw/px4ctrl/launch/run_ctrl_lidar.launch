@@ -1,0 +1,22 @@
+<launch>
+  <arg name="lidar_odom_topic" value="/robot/dlio/odom_node/odom" />
+  <arg name="pub_odom_topic" value="/transformed_odom" />
+  <arg name="pub_pose_topic" value="/lidar_pose" />
+
+   
+	<node pkg="px4ctrl" type="px4ctrl_node" name="px4ctrl" output="screen">
+		<remap from="~odom" to="$(arg pub_odom_topic)" />
+		<remap from="~cmd" to="/position_cmd" />
+
+        <rosparam command="load" file="$(find px4ctrl)/config/ctrl_param_fpv.yaml" />
+	</node>
+	
+     <node pkg="transform_odom" name="odom_transform" type="lidar_to_fc_imu" output="screen">
+     	 
+        <param name="lidar_odom_topic" value="$(arg lidar_odom_topic)"/>    
+        <param name="pub_odom_topic" value="$(arg pub_odom_topic)"/>        
+        <param name="pub_pose_topic" value="$(arg pub_pose_topic)"/>        
+        
+        <param name="parameter_file_path" value="$(find transform_odom)/config/lidar_parameter.yaml"/>      
+  </node>
+</launch>

@@ -1,0 +1,17 @@
+<launch>
+	<arg name="mav_name" default="firefly" />
+	<node pkg="px4ctrl" type="px4ctrl_node" name="px4ctrl" output="screen">
+        	<!-- <remap from="~odom" to="/vicon_imu_ekf_odom" /> -->
+			<!-- <remap from="~odom" to="/trans_odom" /> -->
+			 <remap from="~odom" to="/mavros/local_position/odom" />
+			 <!-- <remap from="~odom" to="/robot/dlio/odom_node/odom" /> -->
+			<!-- <remap from="~odom" to="/trans_odom" /> -->
+<!--			<remap from="~odom" to="/Odometry" />-->
+		<remap from="~cmd" to="/position_cmd" />
+		<!-- <remap from="~traj_pub" to="/firefly/command/trajectory" /> -->
+		<!-- <remap from="~traj_pub" to="/sim/command/trajectory" /> -->
+		<remap from="~traj_pub" to="/$(arg mav_name)/command/trajectory" />
+        <rosparam command="load" file="$(find px4ctrl)/config/ctrl_param_fpv.yaml" />
+	</node>
+ 
+</launch>
